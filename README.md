@@ -4,6 +4,6 @@ PixelVault is a web-based event photography gallery platform where photography s
 
 Studios can create and manage event galleries, while clients can browse and enjoy their photographs in a beautiful, easy-to-use online gallery.
 
-## Figma Wireframes
+## Moqups Wireframes
 
-[View the Studio and Client wireframes in Figma](https://www.figma.com/design/zPXsnRAqIJAqBsRaF2bhBH)
+[View the Studio and Client wireframes in Moqups](https://app.moqups.com/vyVSDFKJeEIpIHq2PdyjjTNjMVWHhkRZ/view/page/ad64222d5)

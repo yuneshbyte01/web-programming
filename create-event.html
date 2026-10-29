@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Create Event</title>
+</head>
+<body>
+
+    <h2>Studio create event / upload</h2>
+    <hr>
+
+    <h3>PIXELVAULT</h3>
+
+    <p><a href="dashboard.html">Dashboard</a></p>
+    <p><a href="my-events.html">My Events</a></p>
+    <p><a href="create-event.html">Create Event</a></p>
+    <p><a href="upload-photos.html">Upload Photos</a></p>
+    <p><a href="clients.html">Clients</a></p>
+    <p><a href="studio-profile.html">Studio Profile</a></p>
+
+    <hr>
+
+    <h2>Create new event</h2>
+
+    <form action="#" method="post"
+          enctype="multipart/form-data">
+
+        <label for="title">Event title</label>
+        <br>
+        <input type="text" id="title" name="title">
+        <br><br>
+
+        <label for="date">Event date</label>
+        <br>
+        <input type="date" id="date" name="date">
+        <br><br>
+
+        <label for="category">Category</label>
+        <br>
+        <input type="text" id="category" name="category">
+        <br><br>
+
+        <label for="client">Client name</label>
+        <br>
+        <input type="text" id="client" name="client">
+        <br><br>
+
+        <label for="description">Description</label>
+        <br>
+        <textarea id="description"
+                  name="description"></textarea>
+        <br><br>
+
+        <h3>Event cover image</h3>
+        <input type="file"
+               name="cover"
+               accept="image/*">
+
+        <br><br>
+
+        <h3>Upload photo files</h3>
+        <input type="file"
+               name="photos"
+               accept="image/*"
+               multiple>
+
+        <br><br>
+
+        <button type="submit">Save Event</button>
+
+    </form>
+
+</body>
+</html>
